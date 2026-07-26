@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Smart Delivery GUI",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-Iinclude",
+                "-Ivendor/imgui",
+                "-Ivendor/imgui-sfml",
+                "src/Global.cpp",
+                "src/Package.cpp",
+                "src/Driver.cpp",
+                "src/Graph.cpp",
+                "src/BST.cpp",
+                "src/MinHeap.cpp",
+                "src/HashTable.cpp",
+                "src/UndoStack.cpp",
+                "src/RequestQueue.cpp",
+                "src/SortSearch.cpp",
+                "src/PackagePanel.cpp",
+                "src/DriverPanel.cpp",
+                "src/WarehousePanel.cpp",
+                "src/GraphPanel.cpp",
+                "src/DispatchPanel.cpp",
+                "src/RequestPanel.cpp",
+                "src/TrackingPanel.cpp",
+                "src/ReportsPanel.cpp",
+                "src/UndoPanel.cpp",
+                "src/SettingsPanel.cpp",
+                "vendor/imgui/imgui.cpp",
+                "vendor/imgui/imgui_draw.cpp",
+                "vendor/imgui/imgui_widgets.cpp",
+                "vendor/imgui/imgui_tables.cpp",
+                "vendor/imgui-sfml/imgui-SFML.cpp",
+                "src/main.cpp",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lopengl32",
+                "-o",
+                "SmartDeliveryGUI.exe"
+            ],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiles the whole GUI app (logic + panels + vendored ImGui/SFML) into SmartDeliveryGUI.exe"
+        }
+    ]
+}
