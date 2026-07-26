@@ -1,0 +1,36 @@
+# Build folders
+build/
+bin/
+obj/
+out/
+
+# Visual Studio Code
+.vscode/ipch/
+
+# Visual Studio
+.vs/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+
+# Debug symbols
+*.pdb
+
+# Logs
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating System files
+.DS_Store
+Thumbs.db
