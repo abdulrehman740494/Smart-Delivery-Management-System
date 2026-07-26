@@ -148,16 +148,16 @@ Or simply use the provided VS Code build task.
 
 ### Package Management
 
-![Package Management](screenshots/package-management.png)
+![Package Management](screenshots/package-management.PNG)
 
 ---
 
 ### Driver Management
 
-![Driver Management](screenshots/driver-management.png)
+![Driver Management](screenshots/driver-management.PNG)
 
 ---
 
 ### Delivery Routes
 
-![Delivery Routes](screenshots/delivery-routes.png)
+![Delivery Routes](screenshots/delivery-routes.PNG)
